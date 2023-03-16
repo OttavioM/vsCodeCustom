@@ -1,0 +1,65 @@
+{
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "julia.enableTelemetry": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "python.defaultInterpreterPath": "C:\\Users\\mazzarettoom\\.conda\\envs\\pyOt\\python.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": ["/K", "C:\\Anaconda3\\Scripts\\activate.bat C:\\Anaconda3"],
+    "python.condaPath": "C:\\ProgramData\\Anaconda3\\Scripts\\conda.exe",
+
+    // CODICI PERSONALIZZATI
+
+    "editor.renderWhitespace": "all",
+    
+
+    "workbench.colorCustomizations": {
+        
+        "editorWhitespace.foreground": "#7aa333",
+        "editor.lineHighlightBackground" : "#F0F8FF30",
+
+        "[Quiet Light]": {
+            "editor.lineHighlightBackground" : "#5593c954",
+            "activityBar.foreground": "#cc4690"
+        },
+
+        "editor.findMatchBackground": "#00ff1e4f",
+        "editor.findMatchHighlightBackground": "#ff820e6a",
+        // For the editor, VS CODE
+        "workbench.tree.renderIndentGuides": "always",
+        "tree.indentGuidesStroke":"#b4b4b4",
+        // For the scripts
+        "editorIndentGuide.activeBackground": "#c7c7c7",
+        "editorIndentGuide.background": "#8f8f8f"
+
+    },
+
+    // "autoDocstring.docstringFormat":"numpy",
+    "autoDocstring.customTemplatePath":"E:\\mazzarettoom\\Documentos\\GitHub\\vsCodeCustom\\AutoDocString\\numpy_none.mustache",
+
+    "editor.tokenColorCustomizations": {
+        // "comments": "#54c204",
+        "[Default Dark+]": {
+            "comments": "#98C379",
+        }
+    },
+
+    "editor.guides.bracketPairs": "active",
+    "remote.SSH.remotePlatform": {
+        "cluster.ihcantabria.com": "linux"
+    },
+    "jupyter.askForKernelRestart": false,
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "workbench.tree.indent": 15,
+    "workbench.tree.renderIndentGuides": "always"
+    
+}
