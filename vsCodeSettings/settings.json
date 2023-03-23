@@ -22,6 +22,8 @@
         
         "editorWhitespace.foreground": "#7aa333",
         "editor.lineHighlightBackground" : "#F0F8FF30",
+        "editor.selectionHighlightBackground": "#2a90afa4",
+        "editor.wordHighlightBackground": "#2a90afa4",
 
         "[Quiet Light]": {
             "editor.lineHighlightBackground" : "#5593c954",
