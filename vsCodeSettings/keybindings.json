@@ -31,5 +31,15 @@
     {
         "key": "shift+alt+d",
         "command": "editor.debug.action.selectionToRepl"
-    }
+    },
+    {
+        "key": "ctrl+k ctrl+shift+i",
+        "command": "workbench.action.terminal.focus",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+shift+e",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
 ]
