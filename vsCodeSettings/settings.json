@@ -65,7 +65,8 @@
     "workbench.tree.renderIndentGuides": "always",
     "AREPL.pythonPath": "C:\\Users\\mazzarettoom\\Anaconda3\\envs\\pyOt\\python.exe",
     "AREPL.envFile": "C:\\Users\\mazzarettoom\\Anaconda3\\envs\\pyOt\\python.exe",
-    "window.zoomLevel": -1,
-    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${folderPath}${separator}${profileName}${separator}${appName}"
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${profileName}${separator}${folderPath}${separator}${appName}",
+    "workbench.colorTheme": "Default Dark+",
+    "git.autofetch": true
     
 }
