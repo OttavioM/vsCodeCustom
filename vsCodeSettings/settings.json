@@ -67,6 +67,7 @@
     "AREPL.envFile": "C:\\Users\\mazzarettoom\\Anaconda3\\envs\\pyOt\\python.exe",
     "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${profileName}${separator}${folderPath}${separator}${appName}",
     "workbench.colorTheme": "Default Dark+",
-    "git.autofetch": true
+    "git.autofetch": true,
+    "editor.wordWrap": "on"
     
 }
