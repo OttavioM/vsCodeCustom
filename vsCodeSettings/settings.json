@@ -48,8 +48,23 @@
         // "comments": "#54c204",
         "[Default Dark+]": {
             "comments": "#98C379",
+        },
+        // TODO: mettere che i numeri siano arancioni e anche che tra parentesi [],() o {}
+        "[Visual Studio Dark]": {
+            "comments": "#98C379",
         }
     },
+
+    // Enable word based suggestions
+    "editor.wordBasedSuggestions": true,
+
+    // Enable parameter hints
+    "editor.parameterHints.enabled": true,
+
+    // Controls if suggestions should automatically show up when typing trigger characters
+    "editor.suggestOnTriggerCharacters": true,
+    // Controls if pressing tab inserts the best suggestion and if tab cycles through other suggestions
+    "editor.tabCompletion": "on",
 
     "editor.guides.bracketPairs": "active",
     "remote.SSH.remotePlatform": {
@@ -66,8 +81,11 @@
     "AREPL.pythonPath": "C:\\Users\\mazzarettoom\\Anaconda3\\envs\\pyOt\\python.exe",
     "AREPL.envFile": "C:\\Users\\mazzarettoom\\Anaconda3\\envs\\pyOt\\python.exe",
     "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${profileName}${separator}${folderPath}${separator}${appName}",
-    "workbench.colorTheme": "Default Dark+",
     "git.autofetch": true,
-    "editor.wordWrap": "on"
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "start",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "workbench.colorTheme": "Visual Studio Dark",
+    // "editor.wordWrap": "on"
     
 }
