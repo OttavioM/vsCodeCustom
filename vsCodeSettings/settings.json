@@ -52,9 +52,12 @@
         // TODO: mettere che i numeri siano arancioni e anche che tra parentesi [],() o {}
         "[Visual Studio Dark]": {
             "comments": "#98C379",
-        }
-    },
+            "variable.numeric": {
+                "foreground": "#FF9900",
+            },
+        },
 
+    },
     // Enable word based suggestions
     "editor.wordBasedSuggestions": true,
 
@@ -73,7 +76,7 @@
     "jupyter.askForKernelRestart": false,
     "jupyter.widgetScriptSources": [
         "jsdelivr.com",
-        "unpkg.com"
+        "unpkg.com",
     ],
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
     "workbench.tree.indent": 15,
